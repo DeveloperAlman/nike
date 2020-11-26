@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Nike | Informative about Products</title>
+</head>
+
+<body>
+    <section class="preloader" id="preloader">
+        <div class="preloader__item"><svg id="logo" width="513" height="177" viewBox="0 0 513 177" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M499.035 6.78813L255.571 106.34L255.569 106.341L125.745 159.621L125.737 159.624C97.5661 171.474 71.782 176.512 57.4555 174.627L57.4447 174.625L57.4338 174.624C28.966 171.507 13.1655 161.488 5.94895 147.881C-1.29386 134.223 -0.0672648 116.633 6.26779 97.9958C18.1094 63.1587 47.5584 25.3879 70.4865 4.81708C59.224 24.3702 53.4811 43.2856 54.3906 59.4024C55.3873 77.0663 64.3797 91.294 82.5925 99.1601L82.6283 99.1755L82.6652 99.1881C96.0214 103.76 109.592 103.418 123.675 100.996C133.259 99.3466 143.155 96.7162 153.403 93.9923C158.169 92.7256 163.011 91.4386 167.933 90.2208L167.946 90.2174L256.202 67.1134L256.203 67.1132L287.996 58.765L288.011 58.7612L499.035 6.78813Z"
+                    stroke="white" stroke-width="2" />
+            </svg>
+
+        </div>
+    </section>
+    <header class="header" id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="flex-nav">
+                    <div class="col-lg-2 col-sm-3 col-md-3">
+                        <div class="header__logo">
+                            <img src="img/logo.png" alt="logo" class="header__logo-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-sm-9 col-md-9 top">
+                        <nav class="navbar navbar-expand-lg mainmenu text-center">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#nav-mobile">
+                                <span class="navbar-icon"><i class="fa fa-bars"></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="nav-mobile">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a href="#header" class="nav-link smooth-scroll">HOME</a></li>
+                                    <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#service" class="nav-link smooth-scroll">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#details" class="nav-link smooth-scroll">BLOG</a></li>
+                                    <li class="nav-item"><a href="#quote" class="nav-link smooth-scroll">REVIEWS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="slideshow-container" id="header">
+        <div class="slide">
+            <h2 class="slide__heading">Air <br> Jordon <br><span class="slide__subheading">5 Retro</span></h2>
+            <img src="img/slider-1.png" alt="slide-1 nike" class="slide__img">
+            <div class="slide__details">
+                <h3 class="slide__details-heading">Nike
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star unrate"></i>
+                </h3>
+                <h4 class="slide__details-subheading">Air Jordon 5 Retro</h4>
+                <p class="slide__details-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                    dolorem culpa adipisci molestias hic vero?</p>
+                <ul class="slide__description">
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <div class="details__wrapper">
+                    <select class="details__dropdown">
+                        <option value="size" class="details__dropdown-value">Size</option>
+                        <option value="medium" class="details__dropdown-value">M</option>
+                        <option value="large" class="details__dropdown-value">L</option>
+                        <option value="extraLarge" class="details__dropdown-value">XL</option>
+                        <option value="extraExtraLarge" class="details__dropdown-value">XXL</option>
+                    </select>
+
+                    <a href="#" class="details__button"><span class="details-buy">Buy</span> <span
+                            class="details__price">$199</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <h2 class="slide__heading">Air <br> Max <br><span class="slide__subheading">Impact</span></h2>
+            <img src="img/slider-2.png" alt="slide-2 nike" class="slide__img">
+            <div class="slide__details">
+                <h3 class="slide__details-heading">Nike
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                </h3>
+                <h4 class="slide__details-subheading">Air Max Impact</h4>
+                <p class="slide__details-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                    dolorem culpa adipisci molestias hic vero?</p>
+                <ul class="slide__description">
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <div class="details__wrapper">
+                    <select class="details__dropdown">
+                        <option value="size" class="details__dropdown-value">Size</option>
+                        <option value="medium" class="details__dropdown-value">M</option>
+                        <option value="large" class="details__dropdown-value">L</option>
+                        <option value="extraLarge" class="details__dropdown-value">XL</option>
+                        <option value="extraExtraLarge" class="details__dropdown-value">XXL</option>
+                    </select>
+
+                    <a href="#" class="details__button"><span class="details-buy">Buy</span> <span
+                            class="details__price">$140</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <h2 class="slide__heading">Air <br> Sportswear <br><span class="slide__subheading">90</span></h2>
+            <img src="img/slider-3.png" alt="slide-3 nike" class="slide__img">
+            <div class="slide__details">
+                <h3 class="slide__details-heading">Nike
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                    <i class="fa fa-star rate"></i>
+                </h3>
+                <h4 class="slide__details-subheading">Air Sportswear 90</h4>
+                <p class="slide__details-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                    dolorem culpa adipisci molestias hic vero?</p>
+                <ul class="slide__description">
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li class="slide__description-item">
+                        <i class="fa fa-angle-right arrow"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <div class="details__wrapper">
+                    <select class="details__dropdown">
+                        <option value="size" class="details__dropdown-value">Size</option>
+                        <option value="medium" class="details__dropdown-value">M</option>
+                        <option value="large" class="details__dropdown-value">L</option>
+                        <option value="extraLarge" class="details__dropdown-value">XL</option>
+                        <option value="extraExtraLarge" class="details__dropdown-value">XXL</option>
+                    </select>
+
+                    <a href="#" class="details__button"><span class="details-buy">Buy</span> <span
+                            class="details__price">$99</span></a>
+                </div>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-angle-left"></i></a>
+        <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right"></i></a>
+        <div class="slide-bg-anime"></div>
+    </div>
+
+    <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="feature__heading wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">SERVICE
+                    </h1>
+                    <h4 class="feature__subheading  wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">WE
+                        DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESS</h4>
+                    <p class="feature__text wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Natus
+                        perspiciatis assumenda asperiores beatae laboriosam dolorem quisquam modi consectetur quo rem
+                        amet vitae deleniti voluptas dicta repudiandae quos ullam, ducimus ex. Placeat in quidem
+                        molestias at?
+                    </p>
+                </div>
+            </div>
+            <div class="row feature__wrapper">
+                <div class="col-lg-3 col-sm-4 col-md-4">
+                    <a href="#" class="feature__box text-center wow animate__animated animate__fadeInLeft"
+                        data-wow-delay="0.3s" data-wow-duration="1.2s">
+                        <div class="feature__flipper">
+                            <div class="feature__flipper-front">
+                                <i class="fa fa-check-square-o"></i>
+                                <p class="feature__flipper-front-text">Website Development</p>
+                            </div>
+                            <div class="feature__flipper-back">
+                                <i class="fa fa-check-square-o"></i>
+                                <p class="feature__flipper-back-text">Website Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-md-4">
+                    <a href="#" class="feature__box text-center wow animate__animated animate__fadeInUp"
+                        data-wow-delay="0.35s" data-wow-duration="1.2s">
+                        <div class="feature__flipper">
+                            <div class="feature__flipper-front">
+                                <i class="fa fa-diamond"></i>
+                                <p class="feature__flipper-front-text">Graphic Design</p>
+                            </div>
+                            <div class="feature__flipper-back">
+                                <i class="fa fa-diamond"></i>
+                                <p class="feature__flipper-back-text">Graphic Design</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-md-4">
+                    <a href="#" class="feature__box text-center wow animate__animated animate__fadeInUp"
+                        data-wow-delay="0.4s" data-wow-duration="1.2s">
+                        <div class="feature__flipper">
+                            <div class="feature__flipper-front">
+                                <i class="fa fa-clock-o"></i>
+                                <p class="feature__flipper-front-text">Digital Marketing</p>
+                            </div>
+                            <div class="feature__flipper-back">
+                                <i class="fa fa-clock-o"></i>
+                                <p class="feature__flipper-back-text">Digital Marketing</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-md-4">
+                    <a href="#" class="feature__box text-center wow animate__animated animate__fadeInRight"
+                        data-wow-delay="0.45s" data-wow-duration="1.2s">
+                        <div class="feature__flipper">
+                            <div class="feature__flipper-front">
+                                <i class="fa fa-podcast"></i>
+                                <p class="feature__flipper-front-text">App Development</p>
+                            </div>
+                            <div class="feature__flipper-back">
+                                <i class="fa fa-podcast"></i>
+                                <p class="feature__flipper-back-text">App Development</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="service__heading wow animate__animated animate__slideInLeft" data-wow-duration="1.2s"
+                        data-wow-delay="0.2s">FEATURES
+                    </h2>
+                    <p class="service__text wow animate__animated animate__slideInLeft" data-wow-duration="1.2s"
+                        data-wow-delay="0.5s">Theme was designed based on input from personal development coaches and
+                        popular trainers so it offers</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <ul class="nav nav-tabs tab-flex">
+                    <li class="nav-item wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                        data-wow-duration="1.2s">
+                        <a href="#tab-1" id="nav-tab-1" data-toggle="tab" class="nav-link-service nav-link active">
+                            <i class="fa fa-cog"></i>
+                            CONFIGURING
+                        </a>
+                    </li>
+                    <li class="nav-item wow animate__animated animate__fadeInUp" data-wow-delay="0.5s"
+                        data-wow-duration="1.2s">
+                        <a href="#tab-2" id="nav-tab-2" data-toggle="tab" class="nav-link-service nav-link">
+                            <i class="fa fa-binoculars"></i>
+                            TRACKING
+                        </a>
+                    </li>
+                    <li class="nav-item wow animate__animated animate__fadeInRight" data-wow-delay="0.5s"
+                        data-wow-duration="1.5s">
+                        <a href="#tab-3" id="nav-tab-3" data-toggle="tab" class="nav-link-service nav-link">
+                            <i class="fa fa-search"></i>
+                            MONITORING
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab-1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card left-pane first wow animate__animated animate__fadeInLeft"
+                                        data-wow-delay="0.3s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Goal Settings</h4>
+                                                <p class="card-text">Like any self improving process, everything starts
+                                                    with setting your goals and cimmitting to them</p>
+                                            </div>
+                                            <div class="card-icon"><i class="fa fa-diamond"></i></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card left-pane first wow animate__animated animate__fadeInLeft"
+                                        data-wow-delay="0.3s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Visual Editor</h4>
+                                                <p class="card-text">Theme provides a well designed and ergonomic visual
+                                                    editor for you to edityour notes and input data</p>
+                                            </div>
+                                            <div class="card-icon"><i class="fa fa-check-square-o"></i></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card left-pane first wow animate__animated animate__fadeInLeft"
+                                        data-wow-delay="0.3s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Refined Options</h4>
+                                                <p class="card-text">Like any self improving process, everything starts
+                                                    with setting your goals and cimmitting to them</p>
+                                            </div>
+                                            <div class="card-icon"><i class="fa fa-clock-o"></i></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card left-pane first wow animate__animated animate__fadeInLeft"
+                                        data-wow-delay="0.3s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Retina Ready</h4>
+                                                <p class="card-text">Theme provides a well designed and ergonomic visual
+                                                    editor for you to edityour notes and input data</p>
+                                            </div>
+                                            <div class="card-icon"><i class="fa fa-clock-o"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 flex-img wow animate__animated animate__fadeInUp"
+                                    data-wow-delay="1s" data-wow-duration="2s"><img src="img/product-600x1200-2.png"
+                                        alt="product-2" class="image-fluid tab__img">
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card right-pane first wow animate__animated animate__fadeInRight"
+                                        data-wow-delay="0.5s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="card-icon"><i class="fa fa-calendar"></i></div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Calendar Input</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card right-pane wow animate__animated animate__fadeInRight"
+                                        data-wow-delay="0.5s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="card-icon"><i class="fa fa-bookmark"></i></div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Easy Reading</h4>
+                                                <p class="card-text">Reading focus mode for long form articles, ebooks
+                                                    and other materials whuch involve large text area</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card right-pane wow animate__animated animate__fadeInRight"
+                                        data-wow-delay="0.5s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="card-icon"><i class="fa fa-clock-o"></i></div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Good Foundation</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card right-pane first wow animate__animated animate__fadeInRight"
+                                        data-wow-delay="0.5s" data-wow-duration="1.8s">
+                                        <div class="card-body">
+                                            <div class="card-icon"><i class="fa fa-heart"></i></div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Responsive</h4>
+                                                <p class="card-text">Reading focus mode for long form articles, ebooks
+                                                    and other materials whuch involve large text area</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="tab-2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 wow animate__animated animate__fadeInUp" data-wow-delay="0.3s"
+                                    data-wow-duration="2s">
+                                    <img class="image-fluid tab__img" src="img/product-600x1200-3.png" alt="product-3">
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-area">
+                                        <h3 class="text-heading">Track Result Based On Your Experince</h3>
+                                        <p class="text-text">After you've configured the app and settled on the data
+                                            gathering techniques you can not start the information trackers and start
+                                            collecting those interesting details. You can always change them as you
+                                            wish.
+                                        </p>
+                                    </div>
+                                    <div class="icon-cards-area">
+                                        <div class="card wow animate__animated animate__fadeInRight"
+                                            data-wow-duration="1s">
+                                            <div class=" card-icon">
+                                                <i class="fa fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Good Communication</h4>
+                                                <p class="card-text">Get a solid foundation for your self development
+                                                    efforts. Try theme mobile app for any mobile platforms
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card wow animate__animated animate__fadeInRight"
+                                            data-wow-duration="1.2s">
+                                            <div class=" card-icon">
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Easy Reading</h4>
+                                                <p class="card-text">Get a solid foundation for your self development
+                                                    efforts. Try theme mobile app for any mobile platforms
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="icon-cards-area">
+                                        <div class="card wow animate__animated animate__fadeInLeft"
+                                            data-wow-duration="1s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Calendar Input</h4>
+                                                <p class="card-text">Get a solid foundation for your self development
+                                                    efforts. Try theme mobile app for any mobile platforms
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card wow animate__animated animate__fadeInLeft"
+                                            data-wow-duration="1.2s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Responsive</h4>
+                                                <p class="card-text">Get a solid foundation for your self development
+                                                    efforts. Try theme mobile app for any mobile platforms
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="card wow animate__animated animate__fadeInLeft"
+                                            data-wow-duration="1.4s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Responsive</h4>
+                                                <p class="card-text">Get a solid foundation for your self development
+                                                    efforts. Try theme mobile app for any mobile platforms
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <div class="container">
+                            <div class="row tab-3-align-center">
+                                <div class="col-md-4">
+                                    <div class="icon-cards-area">
+                                        <div class="card wow animate__animated animate__fadeInLeft"
+                                            data-wow-duration="1s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-bookmark"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Good Foundation</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                        <div class="card wow animate__animated animate__fadeInLeft"
+                                            data-wow-duration="1.1s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-cube"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Easy Reading</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="icon-cards-area tab-3-align-center">
+                                        <div class="card wow animate__animated animate__fadeInRight"
+                                            data-wow-duration="1s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-calendar"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Calendar Input</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                        <div class="card wow animate__animated animate__fadeInRight"
+                                            data-wow-duration="1.1s">
+                                            <div class="card-icon">
+                                                <i class="fa fa-file"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Visual Editor</h4>
+                                                <p class="card-text">Schedule your appointments, meetings and periodical
+                                                    evaluations using the provided in-app calendar option</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s"
+                                    data-wow-duration="1.4s">
+                                    <img class=" image-fluid tab__img" src="img/product-600x1200-4.png" alt="product-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="details" id="details">
+        <div class="container">
+            <div class="row margin-bottom">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s"
+                    data-wow-duration="1.2s">
+                    <img src="img/details-1-iphone.png" alt="details-1-phone" class="img-fluid details__img">
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.1s"
+                    data-wow-duration="1.2s">
+                    <div class="details__text">
+                        <h3 class="details__text-heading">RETINA DISPLAY</h3>
+                        <p class="details__text-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Cupiditate quasi itaque quia laudantium magni porro veritatis ab unde voluptatem nesciunt
+                            dolorem rem fugit aperiam delectus laboriosam, ex eaque. Repellendus impedit eligendi saepe
+                            hic magni quod eum. Neque repellendus, nesciunt unde pariatur odio ad deserunt ipsum maiores
+                            consectetur, possimus sapiente temporibus!
+                        </p>
+                        <a href="#details-lightbox-1" class="details__text-btn btn-anime">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-bottom">
+                <div class="col-lg-6 wow animate__animated animate__fadeInLeft" data-wow-delay="0.5s"
+                    data-wow-duration="1.2s">
+                    <div class="details__text">
+                        <h3 class="details__text-heading">RESPONSIVE MATTERS</h3>
+                        <p class="details__text-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Cupiditate quasi itaque quia laudantium magni porro veritatis ab unde voluptatem nesciunt
+                            dolorem rem fugit aperiam delectus laboriosam, ex eaque. Repellendus impedit eligendi saepe
+                            hic magni quod eum. Neque repellendus, nesciunt unde pariatur odio ad deserunt ipsum maiores
+                            consectetur, possimus sapiente temporibus!
+                        </p>
+                        <a href="#details-lightbox-2" class="details__text-btn btn-anime">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.5s"
+                    data-wow-duration="1.2s">
+                    <img src="img/details-2-iphone.png" alt="details-2-phone" class="img-fluid details__img">
+                </div>
+            </div>
+            <div id="details-lightbox-1" class="lightbox-basic zoom mfp-hide">
+                <div class="row">
+                    <button class="mfp-close z-button">&#10005;</button>
+                    <div class="lightbox-flex">
+                        <div class="col-lg-6">
+                            <img src="img/details-lightbox-1.png" alt="lightbox-1"
+                                class="deatails-lightbox__img img-fluid">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="details-lightbox-content">
+                                <h3 class="details-lightbox-content-heading">Goals Settings</h3>
+                                <p class="details-lightbox-content-text">Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Laborum, ullam!</p>
+                                <h4 class="details-lightbox-content-heading">User Feedback</h4>
+                                <p class="details-lightbox-content-text mb-sm">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Quam repellat quo voluptatem quos quidem magni tempore placeat laudantium minima
+                                    dolorem.
+                                </p>
+                                <p class="details-lightbox-content-text mb-sm">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Ipsam magni accusantium, consectetur molestiae soluta mollitia sit placeat odio!</p>
+                                <p class="details-lightbox-content-text">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Ipsam magni accusantium, consectetur molestiae soluta mollitia sit placeat odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="details-lightbox-2" class="lightbox-basic zoom mfp-hide">
+                <div class="row">
+                    <button class="mfp-close z-button">&#10005;</button>
+                    <div class="lightbox-flex">
+                        <div class="col-lg-6">
+                            <img src="img/details-lightbox-2.png" alt="lightbox-2"
+                                class="deatails-lightbox__img img-fluid">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="details-lightbox-content">
+                                <h3 class="details-lightbox-content-heading">Goals Settings</h3>
+                                <p class="details-lightbox-content-text">Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Laborum, ullam!</p>
+                                <h4 class="details-lightbox-content-heading">User Feedback</h4>
+                                <p class="details-lightbox-content-text mb-sm">Lorem ipsum dolor sit amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Quam repellat quo voluptatem quos quidem magni tempore placeat laudantium minima
+                                    dolorem.
+                                </p>
+                                <p class="details-lightbox-content-text mb-sm">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Ipsam magni accusantium, consectetur molestiae soluta mollitia sit placeat odio!</p>
+                                <p class="details-lightbox-content-text">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Ipsam magni accusantium, consectetur molestiae soluta mollitia sit placeat odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax">
+        <div class=" container">
+            <div class="row">
+                <div class="col-lg-12 text-center wow animate__animated animate__fadeIn" data-wow-delay="1s"
+                    data-wow-duration="1.2s">
+                    <p class="parallax__text">Uleash your creative pattern with theme</p>
+                    <h2 class="parallax__heading">LOOKING FOR EXCLUSIVE DIGITAL SERVICES?</h2>
+                    <a class="parallax__btn" href="#">LEARN MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="testimonial-section py-5 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s"
+        data-wow-duration="1s">
+        <div class="container py-lg-5 col-sm-12">
+            <div id="flipster-carousel" class="flipster-carousel">
+                <div class="flip-items pb-5">
+                    <div class="flip-item text-md-left">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Amazing App</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-1.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Tonry Careter</div>
+                                    <div>London, UK</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Marvellous</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-2.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Sveta Samsonova</div>
+                                    <div>Russia, Moscow</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Satisfied</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-3.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>John Doe</div>
+                                    <div>Germany, Berlin</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Just Perfect</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-4.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Vladimir Gorbatenko</div>
+                                    <div>Ukrain, Kiev</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Wow</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-5.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Veronika Ostafieva</div>
+                                    <div>Russia, St. Petersburg</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Love this</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-6.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Kin Evens</div>
+                                    <div>China, Beijin</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-item">
+                        <div class="item-inner shadow-lg rounded">
+                            <h5 class="mb-2">Not Bad</h5>
+                            <div class="ratings text-primary mb-3">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div>
+                            <div class="mb-3">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit
+                                amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            </div>
+
+                            <div class="source media flex-column flex-md-row">
+                                <img class="source-profile rounded-circle" src="img/user-7.jpg" alt="">
+                                <div class="source-info media-body pt-3">
+                                    <div>Helens Oewens</div>
+                                    <div>Turkey, Stambul</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer theme-bg-primary wow animate__animated animate__fadeIn" data-wow-delay="0.5s"
+        data-wow-duration="1.2s" id="footer">
+        <div class="container py-5 mb-3 col-md-offset-2">
+            <div class="row" style="margin-left: 50px;">
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Highlights</h4>
+                    <ul>
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Jobs</a></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Resources</h4>
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Developer APIs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">legal</h4>
+                    <ul>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Terms of Services</a></li>
+                        <li><a href="">Security</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-lg-3">
+                    <h4 class="col-heading">Stay Connected</h4>
+                    <ul class="social-list">
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fa fa-instagram fa-fw"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fa fa-twitter fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fa fa-facebook fa-fw"></i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                    <div class="mb-2">
+                        Company Name <br>
+                        2419 Locust View Drive <br>
+                        San Francisco, CA, 9898
+                    </div>
+                    <div>
+                        <a href="">hello@yourcompany.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center pb-5">
+            <small class="copyright">
+                Created with
+                <i class="fa fa-heart" style="color: red;"></i>
+                by
+                <a href="">Alman Nazyrov</a>
+                for developers
+            </small>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
+    <script src="js/flipster-custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        (function ($) {
+            "use strict";
+            $(".btn-anime").magnificPopup({
+                type: 'inline',
+                fixedContentPos: 'false',
+                fixedBgPos: 'true',
+                overflowY: 'auto',
+                closeBtnInside: 'true',
+                perloader: 'false',
+                midClick: 'true',
+                removeDelay: '500',
+                mainClass: 'mfp-fade'
+            });
+        })(jQuery);
+    </script>
+    <script>
+        $('#flipster-carousel').flipster();
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
