@@ -133,7 +133,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(../img/bg-main.jpg) no-repeat center center;
+    background: url(../bg-main.jpg) no-repeat center center;
     background-size: cover;
 }
 
